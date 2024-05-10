@@ -1,0 +1,50 @@
+.scrollToTopBtn {
+  display: none;
+}
+
+.scrollToTopBtnActive {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .scrollToTopBtnActive {
+    display: block;
+    position: fixed;
+    bottom: 112px;
+    right: 80px;
+    z-index: 99;
+
+    width: 53px;
+    height: 53px;
+
+    padding-left: 13px;
+    padding-top: 7px;
+
+    border: 2px solid var(--white-secondary);
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .scrollToTopBtnActive {
+    bottom: 154px;
+    right: 89px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .scrollToTopBtnActive {
+    right: 91px;
+  }
+}
+
+.scrollToTopBtnActive:hover,
+.scrollToTopBtnActive:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.iconArrow {
+  fill: var(--white-secondary);
+}

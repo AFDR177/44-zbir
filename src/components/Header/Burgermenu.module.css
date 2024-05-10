@@ -1,0 +1,82 @@
+@import url("../../index.css");
+
+.burgermenu__icon_close {
+  cursor: pointer;
+}
+.burgermenu__icon_open {
+  cursor: pointer;
+}
+
+.burgermenu__content {
+  background-color: var(--fon);
+  height: min-content;
+
+  position: relative;
+  position: absolute;
+  top: 80px;
+  right: 0px;
+
+  display: grid;
+  justify-items: stretch;
+  padding-bottom: 32px;
+  gap: 10px;
+
+  font-family: var(--font-family);
+}
+
+.burgermenu__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+}
+
+/* ============ Адаптация ================ */
+@media all and (768px <= width < 1024px) {
+  .burgermenu__content {
+    /* max-width: 1024px; */
+    width: 100%;
+  }
+  .burgermenu__icon_close {
+    position: absolute;
+    top: calc(100% / 2 - 15px);
+    right: 36px;
+  }
+}
+
+@media all and (420px <= width < 768px) {
+  .burgermenu__content {
+    /* max-width: 420px; */
+    width: 100%;
+  }
+  .burgermenu__icon_close {
+    position: absolute;
+    top: calc(100% / 2 - 15px);
+    right: 16px;
+  }
+}
+
+@media all and (320px <= width < 420px) {
+  .burgermenu__content {
+    /* max-width: 320px; */
+    width: 100%;
+  }
+  .burgermenu__icon_close {
+    position: absolute;
+    top: calc(100% / 2 - 15px);
+    right: 16px;
+  }
+}
+
+@media all and (width <= 320px) {
+  .burgermenu__content {
+    /* max-width: 320px; */
+    width: 100%;
+  }
+  .burgermenu__icon_close {
+    position: absolute;
+    top: calc(100% / 2 - 15px);
+    right: 16px;
+  }
+}

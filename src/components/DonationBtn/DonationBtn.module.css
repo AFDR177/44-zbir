@@ -1,0 +1,42 @@
+.donationBtn {
+  width: 280px;
+  height: 68px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+  background-color: var(--yellow);
+  border: transparent;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.donationBtn:hover,
+.donationBtn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.donationBtn:active {
+  background-color: var(--yellow-active);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 420px) {
+  .donationBtn {
+    width: 380px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .donationBtn {
+    width: 233px;
+  }
+}

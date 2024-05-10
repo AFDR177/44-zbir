@@ -1,0 +1,293 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 434px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../images/hero/hero-background-320-1x.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: var(--white-secondary);
+  margin-top: 80px;
+}
+.heroBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heroContent {
+  margin: 80px auto 40px 20px;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.text {
+  margin-top: 16px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.goal {
+  width: 100%;
+  height: 90px;
+
+  margin-top: 56px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(70, 70, 28, 0.3);
+}
+
+.text1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.svg {
+  width: 24px;
+  margin: 0 16px;
+  fill: var(--white-secondary);
+}
+
+.text2 {
+  font-family: var(--font4);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 312%;
+  letter-spacing: 0.06em;
+}
+
+.goal_section {
+  padding: 20px;
+  background-color: var(--fon);
+}
+.goal_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+@media only screen and (min-width: 420px) {
+  .hero {
+    height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-420-1x.jpeg");
+  }
+  .heroContent {
+    width: 380px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .text {
+    margin-top: 24px;
+    font-size: 20px;
+  }
+  .goal {
+    margin-top: 40px;
+  }
+  .text1 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .svg {
+    width: 33px;
+    margin: 0 24px;
+  }
+  .text2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 208%;
+    letter-spacing: 0.04em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 582px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-768-1x.jpeg");
+  }
+  .heroBlock {
+    align-items: start;
+  }
+  .heroContent {
+    width: 668px;
+    margin: 175px auto 40px 40px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .text {
+    font-size: 24px;
+  }
+  .button {
+    margin-left: 40px;
+  }
+  .goal {
+    height: 102px;
+  }
+  .text1 {
+    font-weight: 400;
+    font-size: 36px;
+  }
+  .svg {
+    width: 52px;
+    margin: 0 48px;
+  }
+  .text2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+  }
+  .goal_section {
+    padding: 24px 40px;
+  }
+  .goal_text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    height: 695px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-1024-1x.jpeg");
+    margin-top: 100px;
+  }
+  .heroContent {
+    width: 748px;
+    margin: 155px auto 40px 60px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 64px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 36px;
+  }
+  .button {
+    margin-left: 60px;
+  }
+  .goal {
+    margin-top: 80px;
+    height: 124px;
+  }
+  .text1 {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  .text2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+  }
+  .goal_section {
+    padding: 32px 69px;
+  }
+  .goal_text {
+    margin-right: 116px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero {
+    height: 727px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-1280-1x.jpeg");
+  }
+  .heroContent {
+    width: 748px;
+    margin: 155px auto 40px 80px;
+  }
+  .button {
+    margin-left: 80px;
+  }
+  .goal {
+    height: 156px;
+  }
+  .text1 {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  .text2 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+  .goal_section {
+    padding: 48px 80px;
+  }
+  .goal_text {
+    font-size: 24px;
+    margin-right: 274px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero {
+    height: 727px;
+  }
+  .heroContent {
+    width: 748px;
+    margin: 155px auto 40px 80px;
+  }
+  .button {
+    margin-left: 80px;
+  }
+  .goal_text {
+    font-size: 24px;
+    margin-right: 433px;
+  }
+}
+
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-320-2x.jpeg");
+  }
+}
+
+@media screen and (min-width: 420px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-420-2x.jpeg");
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-768-2x.jpeg");
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-1024-2x.jpeg");
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../images/hero/hero-background-1280-2x.jpeg");
+  }
+}
